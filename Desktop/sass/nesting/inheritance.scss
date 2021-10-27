@@ -1,0 +1,22 @@
+%message {
+    padding: 12px;
+    width: 12vh;
+    height: 18px;
+    list-style: none;
+}
+
+
+.success {
+    @extend %message;
+    color: green
+}
+
+.warning {
+    @extend %message;
+    color: yellow;
+}
+
+.danger {
+    @extend %message;
+    color: red;
+}
